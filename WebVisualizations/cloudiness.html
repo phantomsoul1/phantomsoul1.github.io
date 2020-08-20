@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/latitude.css" />
+    <title>Latitude - Cloudiness</title>
+
+    <!-- Navigation Bar - Common to all pages -->
+    <nav class="navbar navbar-expand-md navbar-light bg-white p-0"> 
+      <a class="navbar-brand bg-info text-white mx-5 p-3" style="font: bold 25px Georgia, serif" href="index.html">Latitude</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mr-3">
+          <li class="nav-item dropdown active p-2">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="temperature.html">Maximum Temperature</span></a>
+              <a class="dropdown-item" href="humidity.html">Humidity</a>
+              <a class="dropdown-item active" href="cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+            </div>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link" href="comparison.html">Comparison</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </head>
+  <body class="bg-light text-dark">
+
+    <!-- ADD BODY CONTENT HERE -->
+    <div class="container">
+      <div class="row row-cols-1 row-cols-lg-2 no-gutters">
+        <div class="col-12 col-lg-8">
+          <div class="card bg-white m-3">
+            <div class="card-body">
+              <h5 class="card-title text-info latitude-heading">Cloudiness</h5>
+              <hr />
+              <img class="w-100 m-3" src="assets/images/Fig3.png" />
+              <p>Latitude does not appear to have a patterned impact on cloudiness. We do, however, see a slightly higher concentration of higher-cloudiness measurements in the northern hemisphere (positive deg. of latitude). This is possibly attributed to cooler wintertime temperatures at the time these data were collected, which may not hold moisture in the air as well, causing increased condensation and cloudiness.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="card bg-white m-3">
+            <div class="card-body">
+              <h6 class="card-title text-info latitude-subheading py-3">Visualizations</h6>
+              <div class="container">
+                <div class="row row-cols-4 row-cols-lg-2">
+                  <div class="col">
+                    <div class="media mb-3">
+                      <a href="temperature.html"><img src="assets/images/Fig1.png" class="w-100" /></a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="media mb-3">
+                      <a href="humidity.html"><img src="assets/images/Fig2.png" class="w-100" /></a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="media mb-3">
+                      <a href="cloudiness.html"><img src="assets/images/Fig3.png" class="w-100" /></a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="media mb-3">
+                      <a href="windspeed.html"><img src="assets/images/Fig4.png" class="w-100" /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
